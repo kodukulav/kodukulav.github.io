@@ -1,1 +1,101 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkatesh Kodukula</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        #photo-affiliation {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        #photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #ccc;
+        }
+        #affiliation {
+            font-size: 1em;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        #publications ul, #academic-service ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #publications li, #academic-service li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Photo and Affiliation Section -->
+    <section id="photo-affiliation">
+        <div id="photo">
+            <img src="final.jpg" alt="Venkatesh Kodukula" width="150" height="150">
+        </div>
+        <div id="affiliation">
+            <h1 style="font-size: 2em; margin: 0;">Venkatesh Kodukula</h1>
+            <p><strong>System Architect</strong><br>
+            Amazon Lab126<br>
+            Office: 1100 Enterprise Way, Sunnyvale, CA, 94089<br>
+            Email: vkoduku1@asu.edu</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I specialize in designing energy-efficient and performant visual computing systems, with a focus on AR/VR and IoT applications. My research spans hardware-software co-design, operating system runtimes, and low-power sensor architectures. Recently, I've broadened my interests to include battery system architectures, audio and display pipelines, and sustainable technology. I hold an M.S. and Ph.D. from Arizona State University, where I was advised by Robert LiKamWa, and earned my undergraduate degree from the National Institute of Technology, Warangal.</p>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><strong>[MobiCom ‘23]</strong> Squint: A Framework for Dynamic Voltage Scaling of Image Sensors Towards Low Power IoT Vision<br>
+            <strong>Venkatesh Kodukula</strong>, Mason Manetta, Robert LiKamWa<br>
+            <a href="https://dl.acm.org/doi/10.1145/3570361.3613303">Paper Link</a>, Acceptance rate: 15%</li>
+            
+            <li><strong>[IEEE ‘23]</strong> Software-Defined Imaging: A Survey<br>
+            Suren Jayasuriya, Odrika Iqbal, <strong>Venkatesh Kodukula</strong>, Victor Torres, Robert LiKamWa, Andreas Spanias<br>
+            <a href="https://ieeexplore.ieee.org/document/10109744">Paper Link</a>, Impact factor: 23.2</li>
+
+            <li><strong>[ASPLOS ‘21]</strong> Rhythmic Pixel Regions: Visual sensing architecture for flexible spatiotemporal resolution towards high-precision visual computing at low power<br>
+            <strong>Venkatesh Kodukula</strong>, Alexander Shearer, Van Nguyen, Srinivas Lingutla, Robert LiKamWa<br>
+            <a href="https://dl.acm.org/doi/abs/10.1145/3445814.3446737">Paper Link</a>, Acceptance rate: 20%</li>
+
+            <li><strong>[MDPI ‘21]</strong> Stagioni: Temperature management to enable near-sensor processing for on-demand fidelity<br>
+            <strong>Venkatesh Kodukula</strong>, Britton Jones, Saad Katrawala, Robert LiKamWa<br>
+            <a href="https://www.mdpi.com/1424-8220/21/3/926">Paper Link</a>, Impact factor: 3.9</li>
+
+            <li><strong>[HotMobile ‘19]</strong> A case for temperature-driven task migration to balance energy-efficiency and image quality for vision<br>
+            <strong>Venkatesh Kodukula</strong>, Bhardwaj Medapuram, Britton Jones, Robert LiKamWa<br>
+            <a href="https://dl.acm.org/doi/10.1145/3177102.3177111">Paper Link</a>, Acceptance rate: 29%</li>
+        </ul>
+    </section>
+
+    <!-- Academic Service Section -->
+    <section id="academic-service">
+        <h2>Academic Service</h2>
+        <ul>
+            <li><strong>Technical Program Committee:</strong> IEEE VR ’25, MMSys ’25, SenSys ’22 Shadow PC</li>
+            <li><strong>Artifact Eval Committee:</strong> MobiSys ’24, MobiCom ’23, ASPLOS ’22, SOSP ’21</li>
+            <li><strong>Journal Reviewer:</strong> IEEE Access, IEEE TC</li>
+        </ul>
+    </section>
+
+</body>
+</html>
