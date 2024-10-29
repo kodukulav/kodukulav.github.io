@@ -25,6 +25,14 @@
         #affiliation {
             font-size: 1em;
         }
+        /* Center content on smaller screens */
+        @media (max-width: 600px) {
+            #photo-affiliation {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }       
         h2 {
             color: #333;
             border-bottom: 2px solid #333;
